@@ -244,7 +244,7 @@ function! memolist#new_with_meta(title, tags, categories)
   endif
 
   echo "Making that memo " . file_name
-  exe (&l:modified ? "sp" : "e") s:escarg(g:memolist_path . "/" . file_name)
+  exe ("botright 20sp") s:escarg(g:memolist_path . "/" . file_name)
 
   if !filereadable(s:escarg(g:memolist_path . "/" . file_name))
     " memo template
