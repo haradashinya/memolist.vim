@@ -1,4 +1,4 @@
-" autoload/memolist.vim
+"  autoload/memolist.vim
 " Author:  Akira Maeda <glidenote@gmail.com>
 " Version: 0.4.0
 " Install this file as autoload/memolist.vim.  This file is sourced manually by
